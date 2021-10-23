@@ -7,7 +7,7 @@ variable environment {
 }
 
 variable location {
-    default = "westeurope"
+    default = "eastus"
 }
 
 variable node_count {
@@ -17,13 +17,13 @@ variable node_count {
 
 
 variable dns_prefix {
-  default = "k8sAforo255sv"
+  default = "k8sv"
 }
 
 variable cluster_name {
-  default = "k8sAforo255sv"
+  default = "azure_cc_1"
 }
 
 variable resource_group {
-  default = "kubernetesAforo255"
+  default = "gr01_devops"
 }
