@@ -21,6 +21,7 @@ steps:
   inputs:
     command: 'init'
     workingDirectory: '$(System.DefaultWorkingDirectory)/azure-terraform/kubernetes'
+    commandOptions: '- var client_id=$(client_id) -var client_secret=$(client_secret) -var ssh_public_key=$()'
     backendType: 'azurerm'
     backendServiceArm: 'azure-resource-test'
     ensureBackend: true
