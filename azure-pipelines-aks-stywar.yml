@@ -30,7 +30,7 @@ steps:
     backendType: 'azurerm'
     backendServiceArm: 'azure-resource-test'
     ensureBackend: true
-    backendAzureRmResourceGroupName: 'terraform-rg'
+    backendAzureRmResourceGroupName: 'gr01-devops'
     backendAzureRmResourceGroupLocation: 'eastus'
     backendAzureRmStorageAccountName: 'storagetest'
     backendAzureRmContainerName: 'storagecontainer'
