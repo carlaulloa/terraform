@@ -32,7 +32,7 @@ steps:
     ensureBackend: true
     backendAzureRmResourceGroupName: 'gr01-devops'
     backendAzureRmResourceGroupLocation: 'eastus'
-    backendAzureRmStorageAccountName: 'storagetest'
+    backendAzureRmStorageAccountName: 'storagetestccu'
     backendAzureRmContainerName: 'storagecontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
     allowTelemetryCollection: true
