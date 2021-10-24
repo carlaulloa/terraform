@@ -44,4 +44,12 @@ steps:
     environmentServiceName: 'azure-resource-test'
     commandOptions: '-var client_id=$(client_id) -var client_secret=$(client_secret) -var ssh_public_key=$(publickey.secureFilePath)'
     allowTelemetryCollection: true
+
+#- task: TerraformCLI@0
+#  inputs:
+#    command: 'destroy'
+#    workingDirectory: '$(System.DefaultWorkingDirectory)/azure-terraform/kubernetes'
+#    environmentServiceName: 'azure-resource-test'
+#    commandOptions: '-var client_id=$(client_id) -var client_secret=$(client_secret) -var ssh_public_key=$(publickey.secureFilePath)'
+#    allowTelemetryCollection: true
     
