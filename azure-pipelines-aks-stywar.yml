@@ -30,7 +30,7 @@ steps:
     backendType: 'azurerm'
     backendServiceArm: 'azure-resource-test'
     ensureBackend: true
-    backendAzureRmResourceGroupName: 'gr01-devops'
+    backendAzureRmResourceGroupName: 'gr01-devops2'
     backendAzureRmResourceGroupLocation: 'eastus'
     backendAzureRmStorageAccountName: 'storagetestccu'
     backendAzureRmContainerName: 'storagecontainer'
